@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activities.slider.ShortActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="از استایل‌های مونوکروم غافل نشوید"
+                android:textDirection="rtl"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:lineHeight="25sp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="استایل‌هایی با چندین رنگ به دلیل تکه تکه بودن، قد را کوتاه‌تر از حالت واقعی نشان می‌دهند. در مقابل استایل‌های مونوکروم، استایل‌هایی یکدست و تک رنگ هستند که باعث می‌شوند قد شما از چیزی که به نظر می‌رسد بلندتر دیده شود. استایل‌های مونوکروم با رنگ‌های طوسی، کرم و دیگر رنگ‌های خنثی زیبایی خیره‌کننده‌ای به شما می‌دهند. همچنین این سبک استایل با رنگ‌های پاستلی برای روزهای بهاری بسیار مناسب هستند و دغدغه‌ی شما را برای ست کردن رنگ لباس‌هایتان کم می‌کند. اگر علاوه بر قد کوتاه اندام توپری نیز دارید، توصیه می‌کنیم از استایل‌های مونوکروم تیره، مانند مشکی استفاده کنید."
+                android:textDirection="rtl"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/mono" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="از لباس‌ و مانتوی دارای خطوط عمودی استفاده کنید"
+                android:textDirection="rtl"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:lineHeight="25sp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="استایل مناسب افراد قد کوتاه، می‌تواند شامل آیتم‌های طرحدار نیز باشد. لباس‌هایی که طرح‌های خطوط افقی و عمودی دارند، در بیننده خطای دید ایجاد می‌کنند. در واقع این خطوط، مغز بیننده را گول می‌زنند و اندام را تا حدودی متفاوت از چیزی که واقعا هست نشان می‌دهند. در این میان خطوط عمودی باعث کشیدگی و لاغر دیده شدن اندام می‌شوند. اگر قد کوتاه و جثه‌ی بزرگی دارید، خطوط عمودی باریک مناسب شما است. باریکی این خطوط، علاوه بر کشیده نشان دادن اندام شما، شما را لاغرتر نشان می‌دهند. همچنین خطوط باریک عمودی ترندی‌تر از خطوط پهن هستند."
+                android:textDirection="rtl"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_height="200dp"
+                android:src="@drawable/khat" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="شلوار‌های بوت کات و فاق بلند؛ انتخابی مناسب برای افراد قد کوتاه"
+                android:textDirection="rtl"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:lineHeight="25sp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="شلوارهای بوت کات شلوارهای راسته‌ای هستند که در قسمت زیر زانو کمی گشاد می‌شوند. در واقع این شلوارها نوعی شلوار دمپا گشاد به حساب می‌آیند. شلوارهای بوت کات مدل‌های مختلفی دارند که مدل فاق بلند آن از آیتم‌های مناسب برای افراد قد کوتاه است. راسته بودن این مدل شلوار سبب می‌شود پاها خوش‌فرم و بلندتر از حالت اصلی‌شان به نظر برسند. همچنین فاق بلند شلوار بوت کات، باعث کوچک نشان دادن شکم و پهلو، و بلندی پاها می‌شود. پس اگر قد کوتاهی دارید از این مدل شلوار جذاب و ترندی غافل نشوید."
+                android:textDirection="rtl"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/pant" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="کفش‌ پاشنه بلند و همرنگ شلوارتان انتخاب کنید"
+                android:textDirection="rtl"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:lineHeight="25sp"
+                android:textColor="@color/black"
+                android:text="کفش‌های پاشنه بلند، از جمله آیتم‌های کاربردی و در عین حال بسیار جذاب برای بلند نشان دادن قد هستند. این کفش‌ها در انواع طرح و مدل و مناسب هر سلیقه‌ و استایلی قابل استفاده‌اند. البته نکته‌ی بسیار مهمی که هنگام استفاده از کفش پاشنه بلند باید به آن توجه کرد، راحتی آن است. استفاده روزانه از این کفش‌ها می‌تواند به کمر و پا آسیب‌های جدی وارد کند. از این رو بهتر است در برخی موقعیت‌های خاص به سراغ این مدل زیبا بروید. در میان مدل‌های مختلف این کفش‌ها، مدل‌های نوک‌تیز با ‌پاشنه‌ی باریک، قد را کشیده نشان می‌دهند. این مدل‌های جذاب و ظریف اگر با رنگ شلوار ست شوند، تاثیرشان چند برابر خواهد شد. برای تاثیر هر چه بیشتر نیز، سعی کنید بلندی شلوارتان تا روی کفش برسد. علاوه بر کفش‌های پاشنه‌دار، کفش‌های تخت نوک تیز نیز در عین راحتی، می‌توانند تاثیر مثبتی در بلند دیده شدن افراد داشته باشند."
+                android:textDirection="rtl"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/shoes" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

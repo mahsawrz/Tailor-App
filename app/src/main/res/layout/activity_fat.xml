@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activities.slider.FatActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="انتخاب طرح"
+                android:textDirection="rtl"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:lineHeight="25sp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="بعضی از افراد علاقه زیادی به طرح دارند و لباس ساده ترجیحشان نیست. طرح‌های بسیاری مثل خطوط راه‌راه، گل و انواع چاپ‌ها وجود دارند. طرح به تنهایی شما را چاق یا لاغرتر نشان نمی‌دهد. مگر در مواردی که مثلا افراد اضافه وزن بیشتری در قسمت بالاتنه داشته باشند و در آن صورت، طرح‌های افقی به جای عمودی توصیه می‌شود. اگر هم پایین‌تنه حجیم‌تری دارید، می‌توانید از طرح، بیشتر در قسمت بالاتنه استفاده کنید تا تناسب برقرار شود. در ضمن در نظر داشته باشید که طرح‌های سیاه و سفید کلاسیک‌اند و همیشه انتخاب خوبی محسوب می‌شوند. در نهایت طرح‌های مختلف را امتحان کنید تا بفهمید کدام‌یک بر اندامتان بهتر می‌نشیند."
+                android:textDirection="rtl"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/plus" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="بهترین لباس برای افراد پلاس سایز چیست؟"
+                android:textDirection="rtl"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:lineHeight="25sp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="اگر می‌خواهید کمرتان باریک‌تر به نظر برسد، از شلوار جین‌ تنگ و البته فاق‌بلند استفاده کنید. به طور کلی، لباس‌هایی که تا کمر تنگ‌اند و در ادامه گشاد می‌شوند، شما را زیباتر نشان می‌دهند. ما سعی نداریم تا در این مطلب شما را از لباس خاصی منع کنیم، بلکه هدف اصلاح پوشش و استایل شماست، اما موارد استثنائی هم وجود دارند. یکی از این موارد، لباس‎‌های لایه‌لایه‌‌اند. این لباس‌ها به طور کلی هر اندامی را حجیم‌تر نشان می‌دهند، پس حتی‌الامکان از آن‌ها دوری کنید. همان‌طور که قطعا شنیده‌اید، یکی از بهترین راه‌ها برای لاغرتر به نظر آمدن، پوشیدن لباس‌های چسبان و تنگ است. قبلا هم گفتیم که پوشیدن هرچیزی که راحتیتان را از شما بگیرد، توصیه نمی‌شود مگر مواردی مثل کت جین. اگر تمایل دارید که پیراهن بپوشید اما فکر می‌کنید که شما را چاق نشان می‌دهد، می‌توانید با استفاده از چنین آیتمی به پوششتان کمی ظاهری، اندامی‌تر بدهید.
+
+در نهایت هیچ لباس خاصی وجود ندارد که بگوییم افراد پلاس سایز، تنها مجاز به پوشیدن آن‌ها هستند. بلکه، مواردی برای این افراد زیباتر عمل می‌کنند و در واقع شما با رعایت بعضی نکات و اصول استایلینگ، ترندی و جذاب‌تر خواهید بود!"
+                android:textDirection="rtl"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="اکسسوری"
+                android:textDirection="rtl"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:lineHeight="25sp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="کفش، کیف و انواع زیورآلات را می‌توانید استفاده کنید و هیچ مانعی وجود ندارد. در زمینه کفش زنانه، اگر تجمع وزن بیشتر در بالاتنه‌تان است، حتما کفش‌های اسپرت و راحتی را امتحان کنید. بعضی افراد به هوای این‌که به وسیله پاشنه،‌ قدشان بلندتر می‌شود و کشیده‌تر به نظر می‌آیند، مدام از چنین کفش‌هایی استفاده می‌کنند. غافل از این‌که چنین کاری به مرور زمان آسیب وحشتناکی به زانو و کمرتان وارد می‌کند. پس مراقب سلامتی خودتان باشید. در مورد کیف، مدل‌های دوشی و کیف پستچی انتخاب بهتری برای شما هستند. اگر عرض شانه‌تان هم زیاد است، سعی کنید هر مدلی که تهیه می‌کنید را، با دسته بلندش استفاده کنید تا تعادل بیشتری به وجود آید. اگر به دنبال ست کردن گردن‌بندی با لباس شبتان هستید اما نسبت به ناحیه گردن و سینه‌تان حس خوبی ندارید، ترجیحا از آیتم‌های بزرگ‌ و حجیم‌تر استفاده کنید."
+                android:textDirection="rtl"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cha" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="نکات تکمیلی استایلینگ"
+                android:textDirection="rtl"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:lineHeight="25sp"
+                android:textColor="@color/black"
+                android:text="استایل‌های مونوکروم یا تک‌رنگ برای شما مناسب‌ترند.
+لباس‌های یک دست به شکلی که دکمه نداشته باشند، شما را کشیده‌تر نشان می‌دهند.
+یقه‌های U و V را انتخاب کنید.
+پارچه‌های حجیم و چسبنده شما را درشت‌تر نشان می‌دهند.
+سعی کنید اگر انتخابتان بلوز و شلوار است، بلوزتان بلند باشد. البته این بیشتر برای خانم‌هایی صدق می‌کند که تمرکز اضافه وزن، بیشتر در بالاتنه‌شان است.
+اگر اندامتان سیبی شکل است، ترجیحا از کت‌هایی استفاده کنید که تا زیر باسن می‌آیند.
+پوشیدن دامن راسته، چه در افراد قد بلند یا قد کوتاه توصیه می‌شود."
+                android:textDirection="rtl"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

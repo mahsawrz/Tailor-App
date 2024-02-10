@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activities.slider.ThinActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_height="200dp"
+                android:src="@drawable/thin" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="لباس های رنگ روشن"
+                android:textDirection="rtl"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:lineHeight="25sp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="از جمله لباس های مناسب برای افراد لاغر، لباس هایی با رنگ روشن است. رنگ های روشن، شما را چاقتر از چیزی که هستید نشان می دهد، برعکس لباس های تیره که باعث لاغر به نظر رسیدن افراد می شود.
+
+سعی کنید از رنگ های سفید، آبی، سبز و حتی رنگ های جیغ و تند بیشتر استفاده کنید."
+                android:textDirection="rtl"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="لباس های فری سایز"
+                android:textDirection="rtl"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:lineHeight="25sp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="شما به عنوان یک فرد لاغر باید لباسی را انتخاب کنید که نه خیلی به تنتان تنگ و چسبان باشد و نه خیلی گشاد و آزاد باشد که به تنتان زار بزند. لباس مناسب برای افراد لاغر لباسی است که سرشانه های آن دقیقا سر جای خود قرار گرفته باشد اما خیلی تنگ و فیت تن نباشد. از جمله چیزهایی که امروزه در دنیای مد به نفع افراد لاغر است، ترند شدن لباس های آزاد و فری سایز است که حالت آزاد دارند."
+                android:textDirection="rtl"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="لباس های چند لایه"
+                android:textDirection="rtl"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:lineHeight="25sp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="پوشیذن لباس های لایه لایه باعث می شود شما چاقتر از چیزی که هستید بنظر برسید. اما دقت کنید، لباس هایی با یک جنس و یک بافت را روی هم نپوشید، بلکه لباس نازک را از زیر تنتان کنید و روی آن لباس های ضخیم تر بپوشید. به شکلی که لباس ها معلوم باشند."
+                android:textDirection="rtl"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="لباس های یقه گرد"
+                android:textDirection="rtl"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:lineHeight="25sp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="از جمله لباس های مناسب برای افراد لاغر لباس های یقه گرد هستند. لباس هایی مثل یقه اسکی یا هر لباسی که لاغری گردن و شانه ها را نشان ندهد برای شما به عنوان یک فرد لاغر مناسب تر است."
+                android:textDirection="rtl"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/th" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="لباس مجلسی مناسب افراد لاغر"
+                android:textDirection="rtl"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:lineHeight="25sp"
+                android:textColor="@color/black"
+                android:text="لباس های کلوش یا لباس های چین دار انتخاب مناسبی برای افراد لاغر اندام است. پس بهتر است افراد لاغر برای لباس مجلسی، لباسی چیندار و یا لباسی با دامن پف دار انتخاب کنند. اینکه طرح لباس شما گلدار باشد نیز برای شما مناسب است."
+                android:textDirection="rtl"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="چند نکته در انتخاب لباس مناسب برای افراد لاغر"
+                android:textDirection="rtl"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:lineHeight="25sp"
+                android:textColor="@color/black"
+                android:text="از لباس هایی با آستین بلند و کمی آزاد استفاده کنید.
+از پوشیدن شلوارهای خیلی تنگ یا خیلی گشاد خودداری کنید.
+لباس های رنگ روشن بپوشید.
+لباس هایی با جنس ضخیم مثل کتان و جین یا مخمل بپوشید.
+لباس های یقه گرد را فراموش نکنید."
+                android:textDirection="rtl"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.slider.W2Activity">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:gravity="center"
+          android:background="@color/purple">
+
+        <ImageView
+            android:id="@+id/imgTitle2"
+            android:layout_width="64dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/minimal"></ImageView>
+
+        <ImageView
+            android:id="@+id/imgTitle1"
+            android:layout_width="74dp"
+            android:layout_height="131dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/minimal"></ImageView>
+
+        <ImageView
+            android:id="@+id/imgTitle"
+            android:layout_width="84dp"
+            android:layout_height="143dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/minimal"></ImageView>
+
+      </LinearLayout>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="25dp"
+          android:lineHeight="30dp"
+          android:textSize="17sp"
+          android:textColor="@color/black"
+          android:text="در معرف استایل مینیمال اولین و مهم‌ترین نکته سادگی است. انتخاب رنگ کم و پوشیدن کمترین لباس و اجتناب از تجملات برای استایل مینیمال تعریف شده‌اند. رنگ‌های خنثی، پالت رنگ سفید و مشکی و خاکستری و نود یا کرم از محبوب‌ترین رنگ‌های استایل مینیمال است. در این استایل استفاده از اکسسوری و جواهرات مکمل محدود است و باید کاملاً ظریف و ساده باشد تا جلوه بهتری داشته باشد."
+          android:textDirection="rtl"/>
+    </LinearLayout>
+  </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

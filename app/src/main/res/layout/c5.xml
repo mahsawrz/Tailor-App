@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/purple"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="زرد به عنوان شادترین رنگ و نمایان گر خوشحالی شناخته می شود، هر چند این رنگ به عنوان رنگی بی ثبات نیز شناخته می شود، و برای جایی مانند محل کار مناسب نیست چون ممکن است خسته کننده به نظر آید .
+ویژگی:خوش بینی، خلاقیت، مثبت اندیشی، امید، الهام بخش، انرژی
+موقعیت:برای افزایش خوش بینی در موقعیت های مهم و افزایش تمرکز و الهام بخش بودن"
+                android:textColor="@color/black"
+                android:textSize="17sp"></TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/yellow"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

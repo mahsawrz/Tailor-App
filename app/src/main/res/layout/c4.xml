@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/purple"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="این رنگ قدرتمند حس جدیت و مرموزانه ای منتقل می کند و همچنین به عنوان رنگی شیک و مد و لاغر کننده در نظر گرفته می شود . )و چه کسی هست که مشکی را دوست نداشته باشد؟ ( اگر می خواهید با شما رسمی برخورد شود یک کت شیک مشکی با ذره ای سبز یا آبی فوق العاده عمل میکند.
+ویژگی و تاثیرات:اعتبار، ارزش، نمایان گر حفاظت از احساسات
+موقعیت مناسب :در موقعیت هایی که می خواهید قوی تر جلوه کنید، موقعیت هایی که نیاز به جدیت و تمرکز دارد، شیک پوشی"
+                android:textColor="@color/black"
+                android:textSize="17sp"></TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/black"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

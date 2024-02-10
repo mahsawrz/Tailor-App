@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/purple"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="نارنجی رنگ جلوه گر و پر اشتیاق است، و به اندازه ی قرمز پر تکاپو نیست اما توجه ها را به خود جلب می کند، نارنجی رنگی با اعتدال و میانه رو است .
+ویژگی: دوستانه، شادی بخش، نوآورانه، پرانرژی، خوشحالی
+موقعیت: برای احساس صمیمیت و نزدیکی، موقعیت های دعوت کننده، یک احساس دوستانه پر انرژی در هنگام میزبانی یا همکاری"
+                android:textColor="@color/black"
+                android:textSize="17sp"></TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/orange"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

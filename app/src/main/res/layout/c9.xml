@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/purple"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="رنگ سفید به پاکی و کامل بودن ربط داده می شود. سفید معمولا برای تی شرت و شال انتخاب می شود، اما استفاده ی زیاد از آن بی اندازه بی روح جلوه می کند، پس در انتخاب این رنگ دقت به خرج دهید و با رنگ های مناسب استایلی زیبا بسازید .
+ویژگی: پاکی، بی گناه بودن، اصالت و نجابت، تمیز و آراستگی .
+موقعیت: وقتی احساس آرامش و خلوص دارید، در موقعیت هایی که حس آسودگی دارید ."
+                android:textColor="@color/black"
+                android:textSize="17sp"></TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/white"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

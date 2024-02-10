@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.slider.W7Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@color/purple">
+
+                <ImageView
+                    android:id="@+id/imgTitle2"
+                    android:layout_width="64dp"
+                    android:layout_height="124dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/formalw"></ImageView>
+
+                <ImageView
+                    android:id="@+id/imgTitle1"
+                    android:layout_width="74dp"
+                    android:layout_height="131dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/formalw"></ImageView>
+
+                <ImageView
+                    android:id="@+id/imgTitle"
+                    android:layout_width="84dp"
+                    android:layout_height="143dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/formalw"></ImageView>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:lineHeight="30dp"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:text="استایل رسمی مناسب استفاده در محل کار، مجالس و قرارهای رسمی است. در این استایل سعی بر این است که لباس‌ها و سایر آیتم‌ها در استایل ساده، شیک و با ابهت خاصی انتخاب شود. رنگ‌های مناسب قابل استفاده در این استایل آبی، مشکی، قهوه‌ای و بیشتر رنگ‌های تیره است."
+                android:textDirection="rtl"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

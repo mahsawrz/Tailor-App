@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="match_parent"
+    tools:context=".activities.slider.C1Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/purple"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="رنگ سبز نمایان گر تازگی، امنیت و هماهنگی است، و همچنین تداعی کننده ی ثروت و چراغ سبز در رانندگی است.
+
+رنگ سبز به طور بصری کمترین خستگی چشم را ایجاد می کند، که گزینه ی خوبی برای کسانی است که ساعت ها در محل کار روبه روی نمایشگر می نشینند .
+ویژگی: آرامش بخش، اطمینان، امنیت، شروعی دوباره، تجدید و نو شدن
+موقعیت:برای آرامش داشتن، برای داشتن احساس خوب بعد از یک دوره ی پر استرس"
+                android:textColor="@color/black"
+                android:textSize="17sp"></TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_marginTop="15dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/green" />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

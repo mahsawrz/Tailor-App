@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activities.slider.TallActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="لباس‌هایی با طرح و برش افقی"
+                android:textDirection="rtl"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:lineHeight="25sp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="افراد قد بلند بهتر است از طرح‌های راه راه افقی استفاده کنند. همچنین برش‌ افقی در شومیز یا مانتو، می‌تواند بلندی قد شما را تعدیل کند. این برش‌ها در واقع خطای دید ایجاد می‌کنند و سبب می‌شوند اندام پهن‌تر به نظر برسد. از این رو اگر علاوه بر قد بلند، لاغر نیز هستید، این مدل لباس‌ها را در اولویت قرار دهید. لباس‌هایی با طرح‌های بزرگ و طرح‌های چهارخانه نیز در توپر نشان دادن اندام موثرند و به افراد قد بلند نیز توصیه می‌شوند. برای افراد قد بلند همچنین بهتر است که از مدل یقه‌های بزرگ برای مانتو و بالاپوش‌های خود استفاده کنند. یقه‌های بزرگ از بلندی بالاتنه کم می‌کنند و بالاتنه بلند را متعادل‌تر نشان می‌دهند."
+                android:textDirection="rtl"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/t" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="شلوارهای بلند و اندازه‌ی‌ قد پا"
+                android:textDirection="rtl"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:lineHeight="25sp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="اگر قد بلندی دارید و لاغر اندام هستید، شلوارهای گشاد و راسته انتخاب خوبی برای شما هستند. این مدل شلوارها شما را توپرتر از حالت معمول نشان می‌دهند. برای پوشیدن شلوارهای جذب نیز، بهتر است به سراغ شلواری بروید که قد آن کاملا اندازه‌ی شما باشد. اگر قد بلند و پاهای کشیده‌ دارید، ممکن است در انتخاب شلوار متناسب با قدتان به مشکل بخورید. در این حالت بهتر است از پوشیدن مدل شلوارهای کوتاه صرفه نظر کرده و به سراغ شلوارهای بلند بروید. پوشیدن شلوار کوتاه ممکن است این حس را به بیننده القا کند که شلوار شما برایتان کوچک شده است. شلوارهای بوت کات و راسته معمولا بلندتر از مدل‌ شلوارهای دیگر هستند و می‌توانند راه حل مناسبی برای رفع مشکل کوتاهی شلوار باشند."
+                android:textDirection="rtl"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_height="200dp"
+                android:src="@drawable/tt" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="کیف و اکسسوری‌های بزرگ"
+                android:textDirection="rtl"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:lineHeight="25sp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="افراد قد بلند می‌توانند از انواع کیف‌های بزرگ در استایل خود استفاده کنند. استفاده از اکسسوری‌های بزرگ در افراد قد بلند، جلوه‌ای خاص به استایل‌شان می‌بخشد. همچنین هیچ قاعده و قانونی وجود ندارد که افراد بلند قد نتوانند از کفش پاشنه بلند استفاده کنند. استفاده از این کفش‌ها کاملا سلیقه‌ای است و همه‌ی افراد می‌توانند از آن‌ بهره ببرند."
+                android:textDirection="rtl"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/acc" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="استایل چند لایه با رنگ‌های شاد"
+                android:textDirection="rtl"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:lineHeight="25sp"
+                android:textColor="@color/black"
+                android:text="از استایل‌های چند لایه با رنگ‌های شاد استفاده کنید و نگران رنگ لباس‌ خود نباشید. استایل مناسب افراد قد بلند، می‌تواند هر طیف رنگی را شامل شود. این به این معنا است که شما در انتخاب رنگ لباس‌تان محدودیتی ندارید و می‌توانید رنگ‌های دلخواه‌ را با یکدیگر به کار ببرید. برای انتخاب رنگ در استایل‌تان، سعی کنید از ترکیب چند رنگ هماهنگ استفاده کنید. اینگونه علاوه بر روح بخشیدن به استایل‌ خود، به متعادل نشان دادن قدتان نیز کمک می‌کنید. البته به یاد داشته باشید که استایل‌های مونوکروم مناسب افراد قد بلند نیستند و بهتر است کسانی که قد کوتاهی دارند به سراغ این سبک استایل بروند. نکته‌ی آخر در ارتباط با رنگ لباس اینکه، اگر علاوه بر قد بلند اندام درشتی نیز دارید، از رنگ‌های تیره غافل نشوید."
+                android:textDirection="rtl"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/kaf" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

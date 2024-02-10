@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.slider.W3Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@color/purple">
+
+                <ImageView
+                    android:id="@+id/imgTitle2"
+                    android:layout_width="64dp"
+                    android:layout_height="124dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/vintage"></ImageView>
+
+                <ImageView
+                    android:id="@+id/imgTitle1"
+                    android:layout_width="74dp"
+                    android:layout_height="131dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/vintage"></ImageView>
+
+                <ImageView
+                    android:id="@+id/imgTitle"
+                    android:layout_width="84dp"
+                    android:layout_height="143dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/vintage"></ImageView>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:lineHeight="30dp"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:text="استایل وینتج یکی دیگر از استایل های معرفی انواع سبک و استایل بانوان است. این استایل مناسب کسانی است که سبک‌های قدیمی را می‌پسندند و از سبک‌های گذشته مجدداً استفاده می‌کنند. در این استایل می‌توان لباس‌ها را از دوره‌های مختلف باهم ست کرد. بخشی از این سبک لباس به علت محدودیت های بعد از جنگ است تا مردم بتوانند لباس های قدیمی و دست دو را مجدد استفاده کنند."
+                android:textDirection="rtl"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

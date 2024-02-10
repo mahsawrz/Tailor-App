@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.slider.W5Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@color/purple">
+
+                <ImageView
+                    android:id="@+id/imgTitle2"
+                    android:layout_width="64dp"
+                    android:layout_height="124dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/casual"></ImageView>
+
+                <ImageView
+                    android:id="@+id/imgTitle1"
+                    android:layout_width="74dp"
+                    android:layout_height="131dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/casual"></ImageView>
+
+                <ImageView
+                    android:id="@+id/imgTitle"
+                    android:layout_width="84dp"
+                    android:layout_height="143dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/casual"></ImageView>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:lineHeight="30dp"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:text="استایل کژوال را حتماً بارها شنیده‌اید، استایلی سبک و راحت در عین حال شیک و متناسب با موقعیت‌های مختلف است. در سبک کژوال این امکان برای شما فراهم است تا علاوه بر راحتی با مد روز نیز مطابقت داشته باشید و ظاهری آراسته داشته باشید.
+
+استایل کژوال سبکی از پوشش است که نشان دهنده واقعیت هر انسانی است و هیچ محدودیتی در آن وجود ندارد. تیشرت، هودی، شلوار جین، ژاکت پایه و غیره. اصول استایل کژوال هستند که ست کردن آنها با کت‌های چرم یا جین یک استایل جذاب کژوالی را ایجاد می‌کند. در استایل کژوال باید به اصول ست کردن و همخوانی رنگ‌ها با هم دقت شود."
+                android:textDirection="rtl"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.slider.M8Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@color/purple">
+
+                <ImageView
+                    android:id="@+id/imgTitle2"
+                    android:layout_width="64dp"
+                    android:layout_height="124dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/normcore"></ImageView>
+
+                <ImageView
+                    android:id="@+id/imgTitle1"
+                    android:layout_width="74dp"
+                    android:layout_height="131dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/normcore"></ImageView>
+
+                <ImageView
+                    android:id="@+id/imgTitle"
+                    android:layout_width="84dp"
+                    android:layout_height="143dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/normcore"></ImageView>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:lineHeight="30dp"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:text="استایل مردانه نرم کر (Normcore)، از دیگر استایل های ساده ای می باشد که بسیار راحت بوده و مردان این نوع استایل را به دلیل راحتی آن بسیار می پسندند. در این استایل برخلاف سایر استایل های مردانه، خلافیت کمی به کار رفته است. با این حال در این استایل شاهد رنگ های متنوعی خواهیم بود.
+استایل نرم کر را می توان مجموعی از سبک ها و استایل های مختلف دانست که همگی به خوبی با یک دیگر ترکیب شده اند. در این استایل راحت و ساده می توان از انواع پیراهن های یقه اسکی، شلوار جین، پیراهن هایی با آستین های تاشو، لباس های کلاسیک و غیره استفاده نمود."
+                android:textDirection="rtl"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
